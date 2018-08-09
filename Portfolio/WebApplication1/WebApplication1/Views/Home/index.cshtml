@@ -1,0 +1,114 @@
+﻿<html>
+<head>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <style>
+        hmtl,
+        body {
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .splash-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background: #263238;
+            text-align: center;
+        }
+
+            .splash-container .title {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: #fff;
+            }
+
+                .splash-container .title img {
+                    width: 200px;
+                    height: 200PX;
+                    border: solid 3px white;
+                    border-radius: 50% 50%;
+                    -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+                    -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+                    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+                }
+                .splash-container .title h1{
+                    margin-bottom: 0px;
+
+                }
+                .splash-container .title h4{
+                    margin: 0px;
+                    color: rgb(210,210,210);
+                    text-transform: uppercase;
+
+                }
+                .splash-container .title h6{
+                    margin: 0px;
+                    color: rgb(210,210,210);
+                    text-transform: uppercase;
+                }
+            .splash-container .links {
+                position: absolute;
+                top: 0%;
+                right: 0%;
+                background-color: rgb(255, 255, 255);
+                padding: 15px;
+                border-radius: 0 0 0 4px;
+                color: #263238;
+            }
+
+                .splash-container .links ul{
+                    display: block;
+                    padding: 0;
+                    margin: 0;
+                }
+                .splash-container .links ul li{
+                    display: inline;
+                    font-size: 22px;
+                    padding: 0px 5px;
+                }
+
+                    .splash-container .links ul li a {
+                        text-decoration: none;
+                        color: #263238;
+                    }
+    </style>
+
+</head>
+<body>
+    <div class="splash-container">
+        <div class="title">
+            <img src="~/images/myAvatar.png" />
+            <h1>Nathan Thorpe</h1>
+            <h4>Full Time Gamer</h4>
+            <h6>Part Time Student</h6>
+        </div>
+        <div class="links">
+            <ul>
+                <li>
+                    <a href="http://facebook.com" target="_blank">
+                    <i class="fab fa-facebook-square"></i>
+                        </a>
+                </li>
+                <li>
+                    <a href="http://instagram.com" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                        </a>
+                </li>
+                <li>
+                    <a href="http://twitter.com" target="_blank">
+                    <i class="fab fa-twitter-square"></i>
+                        </a>
+                </li>
+            </ul>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
